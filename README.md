@@ -6,3 +6,8 @@ I use Matugen as the color scheme generator, so this dotfiles will work better w
 As for the wallpaper, i use swww. The wallpaper picker script that i made uses swww combined with Matugen, so you need both, or you can change the Matugen line with your choice of wallpaper backend, and also you might need to tweak the script a bit to work with your own system
 
 Special credit to [JaKooLit](https://github.com/JaKooLit), i use some of his scripts and waybar settings
+
+![20250707_20h11m29s_grim](https://github.com/user-attachments/assets/aa3eefa1-2d79-49a1-931f-815e42032887)
+
+
+![20250707_20h12m13s_grim](https://github.com/user-attachments/assets/8dbce2ac-3ac1-4434-9266-03a8ae8d17c8)

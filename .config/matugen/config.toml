@@ -28,3 +28,7 @@ output_path = '~/.config/gtk-4.0/colors.css'
 [templates.rofi]
 input_path = '/home/beentang/.config/matugen/templates/rofi-colors.rasi'
 output_path = '~/.config/rofi/colors.rasi'
+
+[templates.cava]
+input_path = '/home/beentang/.config/matugen/templates/matugen-cava'
+output_path = '~/.config/cava/config'

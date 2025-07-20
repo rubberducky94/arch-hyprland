@@ -7,7 +7,8 @@ As for the wallpaper, i use swww. The wallpaper picker script that i made uses s
 
 Special credit to [JaKooLit](https://github.com/JaKooLit), i used some of his scripts and waybar settings
 
-![20250707_20h11m29s_grim](https://github.com/user-attachments/assets/aa3eefa1-2d79-49a1-931f-815e42032887)
+<img width="1920" height="1080" alt="20250720_22h08m02s_grim" src="https://github.com/user-attachments/assets/cdfc60a8-9241-4633-bc23-8d80ebe9f862" />
+
+<img width="1920" height="1080" alt="20250720_22h10m55s_grim" src="https://github.com/user-attachments/assets/66696b8b-d479-4884-b10b-1920ae8b21a2" />
 
 
-![20250707_20h12m13s_grim](https://github.com/user-attachments/assets/8dbce2ac-3ac1-4434-9266-03a8ae8d17c8)

@@ -165,6 +165,31 @@
 		"10": "10",
 	},
 },
+// ALPHABET Style
+"hyprland/workspaces#alpha": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+    "persistent-workspaces": {
+      "*": 5
+	},
+	"format-icons": {
+		"1": "A",
+		"2": "B",
+		"3": "C",
+		"4": "D",
+		"5": "E",
+		"6": "F",
+		"7": "G",
+		"8": "H",
+		"9": "I",
+		"10": "J",
+	},
+},
 // NUMBERS and ICONS style with window rewrite 
 "hyprland/workspaces#rw": {
 	"disable-scroll": true,

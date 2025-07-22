@@ -189,7 +189,7 @@
 
 "hyprland/window": {
 	"format": "{}",
-	"max-length": 25,
+	"max-length": 55,
 	"separate-outputs": true,
 	"offscreen-css": true,
 	"offscreen-css-text": "(inactive)",
@@ -236,9 +236,9 @@
 },
 
 "mpris": {
-	"interval": 5,
-	"format": "{player_icon} ",
-	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"interval": 10,
+	"format": "{player_icon} <i>{dynamic}</i>",
+	"format-paused": "{status_icon} <i>{artist} {title}</i>",
 	"on-click-middle": "playerctl play-pause",
 	"on-click": "playerctl previous",
 	"on-click-right": "playerctl next",
@@ -263,8 +263,9 @@
 		"playing": "",
 		"stopped": "",
 	},
-	// "ignored-players": ["firefox"]
-	"max-length": 30,
+	"dynamic-order": ["artist", "title"],
+	"ignored-players": ["firefox", "zen"],
+	"max-length": 50,
 },
 
 "network": {

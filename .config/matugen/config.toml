@@ -1,6 +1,6 @@
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "center", "--transition-step", "15", "--transition-fps", "60"]
+arguments = ["img", "--transition-type", "any", "--transition-fps", "60"]
 set = true
 
 [templates.waybar]
@@ -11,6 +11,7 @@ post_hook = 'pkill -SIGUSR2 waybar'
 [templates.kitty]
 input_path = '/home/beentang/.config/matugen/templates/kitty-colors.conf'
 output_path = '~/.config/kitty/colors.conf'
+post_hook = "kill -SIGUSR1 $(pidof kitty)"
 
 [templates.hyprland]
 input_path = '/home/beentang/.config/matugen/templates/hyprland-colors.conf'
@@ -32,7 +33,12 @@ output_path = '~/.config/rofi/colors.rasi'
 [templates.cava]
 input_path = '/home/beentang/.config/matugen/templates/matugen-cava'
 output_path = '~/.config/cava/config'
+post_hook = "pkill -USR1 cava"
 
 [templates.spicetify]
 input_path = '~/.config/matugen/templates/spotify-colors.ini'
 output_path = '~/.config/spicetify/Themes/text/color.ini'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/midnight-discord.css'
+output_path = '~/.config/vesktop/themes/matugen.css'
